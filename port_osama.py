@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 # ---------------------------
 # IMAGE LOAD + PERFECT CIRCLE FIX
 # ---------------------------
-img_path = "D:\\Downloads\\osama_profile.jpg"  # SAME NAME YOU UPLOADED EARLIER
+img_path = "osama_profile.jpg"  # SAME NAME YOU UPLOADED EARLIER
 img = Image.open(img_path)
 
 # ---- PERFECT CIRCLE FUNCTION (NO STRETCH) ----
@@ -170,3 +170,4 @@ st.markdown("""
 """)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
